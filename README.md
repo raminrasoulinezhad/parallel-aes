@@ -32,7 +32,7 @@ All these algorithms have been implemented in this project and the results have 
 1. Clone this repository `git clone https://github.com/gurupunskill/parallel-aes.git`.
 2. Change directory to `parallel-aes/src`.
     1. Change directory to `generator`.
-    2. Run `g++ generate.cpp` and `./a.out`. This creates a dataset which will be used by the algorithms.
+    2. Run `g++ -std=c++11 generate.cpp` and `./a.out`. This creates a dataset which will be used by the algorithms.
     3. Change directory to any one of the 7 implemented AES algorithm. For instance, `gcs` would hold the GCS algorithm.
     4. Run `g++ <algo-name>.cpp` and `./a.out`. You will view the corresponding times on the console.
     5. Change directory to `prop_dataset` to view the ciper texts in your text editor.
