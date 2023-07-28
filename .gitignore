@@ -3,4 +3,5 @@ src/dataset
 src/norm_dataset
 src/prop_dataset
 src/new_norm_dataset
+src/AES-Rust
 .vscode
